@@ -344,6 +344,8 @@ figure:hover { opacity: 0.8; }
 
 @media (max-width: 768px) {
     .col-md-12.col-sm-12.col-sx-6.main-item, .mosaic .secondary-item { margin-bottom: 1rem; }
+
+    .submenu {display: none;}
 }
 
 /*=====  End of Mosaic  ======*/
