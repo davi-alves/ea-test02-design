@@ -8,7 +8,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
@@ -19,15 +18,17 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+        <!-- START header -->
         <section class="header-container">
+
           <!-- START banner -->
-          <div class="container-fluid top-banner">
+          <section class="container-fluid top-banner">
             <div class="row">
               <div class="col-md-6 col-md-offset-3 col-xs-12 col-xs-offset-0">
                 <img src="img/banner.png" alt="Banner" class="img-responsive">
               </div>
             </div>
-          </div>
+          </section>
           <!-- END banner -->
 
           <!-- START navigation -->
@@ -220,8 +221,10 @@
           </nav>
           <!-- END navigation -->
         </section>
+        <!-- END header -->
 
-        <div class="content">
+        <!-- START contenct -->
+        <section class="content">
           <!-- START mosaico -->
           <section class="container-fluid mosaic">
             <div class="row">
@@ -386,10 +389,14 @@
             </div>
           </section>
           <!-- END featured -->
-        </div>
+        </section>
+        <!-- END -->
 
+        <!-- SCRIPTS -->
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script>
+          window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+        </script>
         <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
