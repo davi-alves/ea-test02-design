@@ -1,0 +1,22 @@
+{
+  "name": "tutsplus-study",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Davi Alves <hey@davialves.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/flyingkrai/ea-test01-design",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.4"
+  }
+}
